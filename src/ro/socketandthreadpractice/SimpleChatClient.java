@@ -47,7 +47,7 @@ public class SimpleChatClient {
         readerThread.start();										// The thread's job is to read from the server's socket stream, displaying incoming messages.
 
         frame.getContentPane().add(BorderLayout.CENTER, mainPanel);
-        frame.setSize(650, 500);
+        frame.setSize(620, 350);
         frame.setVisible(true);
     }
 
